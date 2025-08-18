@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/VITS-Page/static/css/main.dadcfe68.css",
+    "main.js": "/VITS-Page/static/js/main.f95ff279.js",
+    "static/js/453.aeec7b2d.chunk.js": "/VITS-Page/static/js/453.aeec7b2d.chunk.js",
+    "static/media/title4.jpg": "/VITS-Page/static/media/title4.2b5561a59e7fca367730.jpg",
+    "static/media/SLDR1.jpg": "/VITS-Page/static/media/SLDR1.5309aafec1125c917bbf.jpg",
+    "static/media/title3.jpg": "/VITS-Page/static/media/title3.046121d11c2ec4c97398.jpg",
+    "static/media/favicon.ico.png": "/VITS-Page/static/media/favicon.ico.bf2f194ea165c4fd462a.png",
+    "static/media/search.jpg": "/VITS-Page/static/media/search.1bc2c3dc3e215fc78b0a.jpg",
+    "static/media/apply.jpg": "/VITS-Page/static/media/apply.d6a9ac7a6d9612475723.jpg",
+    "static/media/job.jpg": "/VITS-Page/static/media/job.6168126fd8aeb64d863c.jpg",
+    "static/media/Contact.jpg": "/VITS-Page/static/media/Contact.f79973ce2271fcaa6073.jpg",
+    "index.html": "/VITS-Page/index.html",
+    "main.dadcfe68.css.map": "/VITS-Page/static/css/main.dadcfe68.css.map",
+    "main.f95ff279.js.map": "/VITS-Page/static/js/main.f95ff279.js.map",
+    "453.aeec7b2d.chunk.js.map": "/VITS-Page/static/js/453.aeec7b2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dadcfe68.css",
+    "static/js/main.f95ff279.js"
+  ]
+}
