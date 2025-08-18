@@ -11,7 +11,7 @@ import f from './images/search.jpg'
 import g from './images/ccl.jpg'
 import h from './images/job.jpg'
 import i from './images/Contact.jpg'
-import { FaBeer } from "react-icons/fa"
+import { FaBeer } from "react-icons/fa" 
 import Marquee from 'react-fast-marquee';
 
 function App() {
