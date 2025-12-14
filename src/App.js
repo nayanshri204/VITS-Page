@@ -5,12 +5,13 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 import a from './images/SLDR1.jpg'
 import b from './images/title3.jpg'
 import c from './images/title4.jpg'
-import d from './images/favicon.ico.png'
-import e from './images/apply.jpg'
-import f from './images/search.jpg'
-import g from './images/ccl.jpg'
-import h from './images/job.jpg'
-import i from './images/Contact.jpg'
+import d from './images/vitsfull.jpg'
+import e from './images/favicon.ico.png'
+import f from './images/apply.jpg'
+import g from './images/search.jpg'
+import h from './images/ccl.jpg'
+import i from './images/job.jpg'
+import j from './images/Contact.jpg'
 import { FaBeer } from "react-icons/fa" 
 import Marquee from 'react-fast-marquee';
 
@@ -18,16 +19,22 @@ function App() {
   return (
     <div className="App">
 
-      <div id='nav'><div id='em'><span><FaBeer/>contactsatna@vitsdpr.ac.in</span><span>1234567890</span></div>
+      <div id='nav'><div id='em'><span><FaBeer/>contactsatna@vitsdpr.ac.in</span><span>8966903524</span></div>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" >Alumni</a>
+          <a class="nav-link active" aria-current="page" href="https://www.vitsdpr.ac.in/AlumniRegister" >Alumni</a>
        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Apply Now</a>
+          <a class="nav-link" href="https://www.vitsdpr.ac.in/Admission">Apply Now</a>
        </li>
        <li class="nav-item">
-          <a class="nav-link" href="#">Admin Login</a>
+          <a class="nav-link" href="https://vitscms.com/lander">Student Login</a>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link" href="https://www.vitsdpr.ac.in/EnterMe">Admin Login</a>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link" href="https://www.vitsdpr.ac.in/Academic%20Report/APRlogin.html">Academic</a>
        </li>
   
       </ul>
@@ -35,7 +42,7 @@ function App() {
 
 
    <div id='mar'>
-     <img id='fav' src={d}></img>
+     <img id='fav' src={e}></img>
      <Marquee>
         <span id='bold-red' > VINDHYA INSTITUTE OF TECHNOLOGY AND SCIENCE SATNA</span>
      </Marquee>
@@ -55,6 +62,9 @@ function App() {
        <div className="carousel-item">
           <img src={c} className="d-block w-100" alt="..."/>
        </div>
+        <div className="carousel-item">
+          <img src={d} className="d-block w-100" alt="..."/>
+       </div>
     
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -70,24 +80,24 @@ function App() {
 
 
    <div className='lg'>
-      <a href="#" >
-        <img src={e} alt="Apply" />
+      <a href="https://www.vitsdpr.ac.in/Admission" >
+        <img src={f} alt="Apply" />
         <p>ADMISSION</p>
      </a>
-      <a href="#" >
-        <img src={f} alt="Search" />
+      <a href="https://www.vitsdpr.ac.in/contact" >
+        <img src={g} alt="Search" />
         <p>ENQUIRY</p>
      </a>
-     <a href="#" >
-        <img src={g} alt="Core Committee" />
+     <a href="https://www.vitsdpr.ac.in/corecommittee" >
+        <img src={h} alt="Core Committee" />
         <p>CORE COMMITTEE</p>
      </a>
-     <a href="#">
-        <img src={h} alt="Career" />
+     <a href="https://www.vitsdpr.ac.in/JobPortal">
+        <img src={i} alt="Career" />
         <p>CAREER</p>
      </a>
-      <a href="#">
-        <img src={i} alt="Contact" />
+      <a href="https://www.vitsdpr.ac.in/contact">
+        <img src={j} alt="Contact" />
         <p>CONTACT US</p>
      </a>     
    </div>
